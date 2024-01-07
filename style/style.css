@@ -9,19 +9,20 @@ body{
 .btn-primary{
     padding: 20px 25px;
     border-radius: 5px;
-background: #F15B22;
-color: #FFF;
-text-align: right;
-font-size: 20px;
-font-weight: 600;
-border:none;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
 }
 /* hero section design */
 .hero-section{
     background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
     padding:200px 150px;
-    background-size: cover;
-   
+    /* background-size: cover; */
+   background-position:bottom left;
 }
 .sectionfind{
     display: flex;
@@ -46,5 +47,94 @@ border:none;
     font-weight: 400;
     line-height: 26px; 
     margin-bottom:50px;
-    margin-top:25px;
+}
+main{
+    width:1100px;
+    margin:0 auto;
+}
+main section{
+    padding:120px 0;
+}
+.failur-secton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:100px;
+}
+.part-of-column{
+    width:50%;
+}
+
+.part-of-column h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:25px;
+}
+.part-of-column p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom:15px;
+}
+.part-of-column ul li{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+.part-of-column ul li i{
+    margin-right:5px;
+    color:#16D887;
+}
+
+.plan-title-h{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:60px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.plan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:18px;
+}
+.plan-desc{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top : 16px;
+}
+.design-section{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.design-section h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom:45px;
+}
+.plancontent{
+    width:50%;
+}
+.color-point{
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to right, #e45a24be , #a15e4441);
+    padding:60px 100px;
 }
