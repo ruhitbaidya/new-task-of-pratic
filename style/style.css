@@ -171,6 +171,9 @@ main section{
     margin-bottom:10px;
     border-radius: 5px;
 }
+.column-file input:focus{
+    outline:none;
+}
 footer{
     background: #151414;
 }
