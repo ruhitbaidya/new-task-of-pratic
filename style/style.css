@@ -138,3 +138,39 @@ main section{
     background-image: linear-gradient(to right, #e45a24be , #a15e4441);
     padding:60px 100px;
 }
+.form-content{
+    display: flex;
+    justify-content: space-between;
+    gap:150px;
+}
+.column-file{
+    width:50%;
+}
+.column-file h3{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.column-file p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin:10px 0;
+}
+.column-file a{
+    display: inline-block;
+    margin:20px 10px;
+}
+.column-file input{
+    padding:20px 10px;
+    background-color: transparent;
+    border:1px solid #fff;
+    width:100%;
+    margin-bottom:10px;
+    border-radius: 5px;
+}
+footer{
+    background: #151414;
+}
